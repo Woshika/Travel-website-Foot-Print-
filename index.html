@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Complete responsive tour and travel agency website design tutorial</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+        <!--Font awesome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+        <!-- Custom css file link -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!-- Header section starts -->
+        <header>
+            <a href="#" class="logo"><span>F</span>oot Print</a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#book">Book</a>
+                <a href="#packages">Packages</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#review">Review</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here...">
+                <label for="search-bar" class="fas fa-search"></label>
+            </form>
+        </header>m
+<!-- header section ends -->
+
+<!-- Login Form Container -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" class="btn" value="login now">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+<!-- home section start -->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="vedios/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="vedios/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="vedios/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="vedios/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="vedios/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="vedios/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- Booking section starts -->
+<section class="book" id="book">
+
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/book-img.svg" alt="">
+        </div>
+
+        <form action="">
+
+            <div class="inputbox">
+                <h3>Where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputbox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputbox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputbox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+
+        </form>
+
+    </div>
+
+</section>
+<!-- Booking section ends -->
+
+<!-- pachages section starts -->
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/p-1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                <p>Places visit in Mumbai</p>
+                <ul>
+                    <li>Gateway of India Mumbai</li>
+                    <li>Taraporewala Aquarium</li>
+                    <li>Essel World</li>
+                    <li>Marine Drive</li>
+                    <li>Global Vipassana Pagoda</li>
+                </ul>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/p-2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> hawai </h3>
+                <p>Places visit in Hawai</p>
+                <ul>
+                    <li>Wailukku</li>
+                    <li>Waikiki Beach</li>
+                    <li>Hanauma Bay Nature Preserve</li>
+                    <li>Pearl Harbor</li>
+                    <li>Volcanoes National Park</li>
+                </ul>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/p-3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> sydney </h3>
+                <p>Places visit in Sydney</p>
+                <ul>
+                    <li>Sydney Opera House</li>
+                    <li>Sydney Harbour Bridge</li>
+                    <li>Taronga Zoo, Sydney</li>
+                    <li>Darling Harbour, Sydney</li>
+                    <li>The Rocks Market</li>
+                </ul>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/p-4.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>Places visit in Paris</p>
+                <ul>
+                    <li>Eiffel Tower</li>
+                    <li>Louvre Museum</li>
+                    <li>Notre Dame Cathedral</li>
+                    <li>Palace Of Versailles</li>
+                    <li>Montmartre</li>
+                </ul>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/p-5.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                <p>Places visit in Tokyo</p>
+                <ul>
+                    <li>Tokyo Tower</li>
+                    <li>Tokyo Skytree</li>
+                    <li>Tokyo Disneyland</li>
+                    <li>Kabuki-za</li>
+                    <li>Hamarikyu Gardens</li>
+                </ul>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/p-6.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> eypt </h3>
+                <p>Places visit in Egypt</p>
+                <ul>
+                    <li>Great Pyramid of Giza</li>
+                    <li>Luxor Temple</li>
+                    <li>Nile River Cruise</li>
+                    <li>Sakkara Pyramids</li>
+                    <li>Mosque of Mohamed Ali</li>
+                </ul>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- packages section ends -->
+
+<!-- service section starts -->
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Travel agencies curate a selection of budget-friendly accommodations, 
+                ensuring that customers have access to comfortable and economical stay options at their chosen destinations.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>foods and drinks</h3>
+            <p>From local delicacies to international cuisines, travel agencies guide customers to eateries that cater to various tastes and preferences. 
+                They help travelers savor authentic flavors while staying within their budget.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guide</h3>
+            <p>Ensuring the safety of travelers is a top priority for travel agencies. They provide comprehensive safety guides, 
+                offering valuable tips and information to help customers navigate unfamiliar destinations securely.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Travel agencies specialize in crafting itineraries that cater to diverse interests and destinations worldwide. 
+                Whether customers dream of exploring ancient ruins, relaxing on tropical beaches, 
+                or immersing themselves in vibrant city life, travel agencies make global adventures accessible.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Leveraging their expertise, travel agencies optimize travel routes and modes of transportation to provide customers with efficient and time-saving travel options. 
+                This allows travelers to make the most of their journey, minimizing travel time and maximizing exploration.</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>For thrill-seekers, travel agencies curate adventurous experiences, from trekking in exotic landscapes to participating in water sports. 
+                They ensure that customers have access to exciting activities that align with their preferences for an adrenaline-filled journey.</p>
+        </div>
+    </div>
+</section>
+<!-- service section ends -->
+
+<!-- gallery section starts -->
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="image/g-1.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/g-2.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/g-3.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/g-4.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/g-5.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/g-6.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/g-7.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/g-8.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="image/g-9.jpg" alt="">
+            <div class="content">
+                <h3>amazing places</h3>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- gallery section ends -->
+
+<!-- review section starts -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/pic1.png" alt="">
+                    <h3>Meli Nikola</h3>
+                    <p>Found this site via a travel search engine and was initially unsure as hadn't heard of them. However, 
+                        booking went smoothly and I secured the best price around when I booked by a lot!  </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/pic2.png" alt="">
+                    <h3>Albert William</h3>
+                    <p>Switch and Bait Company. If you see any SnapTravel cheap prices on google. Your wasting your time. Do not use them! Customer service reads from scripts and copy & paste type of company. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/pic3.png" alt="">
+                    <h3>Rafella Maria</h3>
+                    <p>I loved they had the best pricing.
+                        It was so simple to book, I received texts and emails which in my case eased my mind so
+                         I didn't have to call and double check nothing. 
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="image/pic4.png" alt="">
+                    <h3>Arvin andruz </h3>
+                    <p>Don't book with them, don't trust any confirmation.
+                        Booking not found at the hotel for discrepancies in the rate.
+                        Based on your binding confirmation reveived, we have traveled today 50 miles to the hotel.
+                        </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- Brand section -->
+
+<section class="brand-container">
+
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="image/1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="image/2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="image/3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="image/4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="image/5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="image/6.jpg" alt=""></div>
+        </div>
+    </div>
+
+</section>
+
+<!--footer section-->
+<section class="footer">
+    
+    <div class="box-container">
+
+        <div class="box1">
+            <h3>about us</h3>
+            <p>
+                At Foot Print, we are a team of travel enthusiasts dedicated to curating exceptional travel experiences. 
+            </p>
+        </div>
+        <div class="box1">
+            <h3>branch locations</h3>
+            <a href="#">india</a>
+            <a href="#">USA</a>
+            <a href="#">sri lanka</a>
+            <a href="#">australia</a>
+        </div>
+        <div class="box1">
+            <h3>quick links</h3>
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="box1">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter </a>
+            <a href="#">linkedin </a>
+        </div>
+    </div>
+    <h1 class="credit"> created by <span>Woshika kavindi</span> | all rights reserved!</h1>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <!-- Custom js file link -->
+        <script src="script.js"></script>
+    </body>
+</html>
